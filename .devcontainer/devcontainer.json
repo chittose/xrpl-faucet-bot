@@ -1,0 +1,8 @@
+{
+  "name": "xrpl-faucet-bot",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/chrome:1": {}
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
